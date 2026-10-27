@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hora y Clima Argentina</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="contenedor">
+
+        <select id="provincia">
+            <option value="-24.1858,-65.2995">Jujuy</option>
+            <option value="-24.7821,-65.4232">Salta</option>
+            <option value="-26.8241,-65.2226">Tucumán</option>
+            <option value="-31.4201,-64.1888">Córdoba</option>
+            <option value="-32.8895,-68.8458">Mendoza</option>
+            <option value="-34.6037,-58.3816">Buenos Aires</option>
+            <option value="-27.4514,-58.9867">Corrientes</option>
+            <option value="-27.3621,-55.9009">Misiones</option>
+            <option value="-31.7333,-60.5333">Entre Ríos</option>
+        </select>
+
+        <div class="hora" id="hora"></div>
+
+        <div class="clima">
+            <h2 id="temperatura">--°C</h2>
+            <p id="estado">Cargando clima...</p>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
